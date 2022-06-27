@@ -1,6 +1,7 @@
 # Wildfire_Surveilace_System
 Wildfire suveilance system with an autonomous UAV(Drone), which uses Custome CNN firenet model with raspberry-pi implementation.
 
+Tested using Python 3.7.x, [TensorFlow 1.15](https://www.tensorflow.org/install/), [TFLearn 0.3.2](http://tflearn.org/) and [OpenCV 3.x / 4.x](http://www.opencv.org) (requires opencv extra modules - ximgproc module for superpixel segmentation)
 
 # Google Drive folder which includes our custom mixed dataset and pre trained weights
 [Google Drive of Mixed Dataset and pre-trained weights](https://drive.google.com/drive/folders/1yzvNfW-rJRnT51vGhIUvl5yQI0mwzn5x?usp=sharing)
