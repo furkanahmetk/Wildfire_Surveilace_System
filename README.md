@@ -3,9 +3,9 @@ Wildfire suveilance system with an autonomous UAV(Drone), which uses Custome CNN
 
 
 # Google Drive folder which includes our custom mixed dataset and pre trained weights
-https://drive.google.com/drive/folders/1yzvNfW-rJRnT51vGhIUvl5yQI0mwzn5x?usp=sharing
+[Google Drive of Mixed Dataset and pre-trained weights](https://drive.google.com/drive/folders/1yzvNfW-rJRnT51vGhIUvl5yQI0mwzn5x?usp=sharing)
 
-#Links for Datasets that being tested and used to make our custom data set
+# Links for Datasets that being tested and used to make our custom data set
 
 [THE FLAME DATASET: AERIAL IMAGERY PILE BURN DETECTION USING DRONES (UAVS)(Shamsoshoara et al., 2021)](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)
 
