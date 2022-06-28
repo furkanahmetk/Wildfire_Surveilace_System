@@ -5,7 +5,9 @@ Tested using Python 3.7.x, [TensorFlow 1.15](https://www.tensorflow.org/install/
 
 ## Abstract
 
+example to add pngs
 
+![](https://raw.githubusercontent.com/socodes/Casper-validator-metrics-charts/main/RAM%20Amount%20Chart.png)
 
 ## Clonning the repository & installing required packages for fire detection
 
