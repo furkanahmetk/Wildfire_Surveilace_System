@@ -160,8 +160,13 @@ python3 main.py
 ```
 
 ## Converting tensorflow to tensorflow lite to raspberry-pi implementation's performance improvement
-You can convert pre trained firenet model to tenserflow lite model by running /FireDetection/converter/firenet-conversion.py
+You can convert pre trained firenet model to tenserflow lite model to increase the performance of fire detection in raspberry-pi.
+Following commands should be issued to convert the  model which was taken from [tobybreckon/fire-detection-cnn]
 
+```bash
+cd ~/wildfire_Surveilance_System/FireDetection/converter/
+python3 firenet-conversion.py
+```
 ## Configuring power implementation
 
 ## Automation implementation
