@@ -10,15 +10,15 @@ In this repository we worked on our multidisciplinary final year project.Our fin
 
 General Operation flow diagram (below)
 
-![](https://raw.githubusercontent.com/furkanahmetk/Wildfire_Surveilace_System/GeneralOperationFlogDiagram.png)
+![](https://github.com/furkanahmetk/Wildfire_Surveilace_System/GeneralOperationFlogDiagram.png)
 
 Communication overall design structure (below)
 
-![](https://raw.githubusercontent.com/furkanahmetk/Wildfire_Surveilace_System/CommunicationDesign.png)
+![](https://github.com/furkanahmetk/Wildfire_Surveilace_System/CommunicationDesign.png)
 
 Firenet model structure (below)
 
-![](https://raw.githubusercontent.com/furkanahmetk/Wildfire_Surveilace_System/StructureOfFirenetModel.png)
+![](https://github.com/furkanahmetk/Wildfire_Surveilace_System/StructureOfFirenetModel.png)
 
 
 ## Clonning the repository & installing required packages for fire detection
