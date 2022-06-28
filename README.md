@@ -13,3 +13,5 @@ Tested using Python 3.7.x, [TensorFlow 1.15](https://www.tensorflow.org/install/
 [Effective Forest Fire Detection Data-set for Heterogeneous Wireless Multimedia Sensor Networks(Ever et al.,2020))](https://data.mendeley.com/datasets/g5nzp6j3bt/2)
 
 [Dataset for Forest Fire Detection(Khan et al., 2020)](https://data.mendeley.com/datasets/gjmr63rz2r/1)
+
+#Installing required Packages
