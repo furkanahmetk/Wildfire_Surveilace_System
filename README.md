@@ -70,14 +70,6 @@ main.py Line 144:
 
 ```
 
-## Converting tensorflow to tensorflow lite to raspberry-pi implementation's performance improvement
-
-Following paramaters should be set correctly to identify the path of pre-trained model and test data set
-main.py Line 144:
-```bash
-
-```
-
 Following commands should be issued to test pretrained weights, if you already clonned the repository and downloaded pretrained models you may ignore first related commands.
 
 ```bash
@@ -85,6 +77,14 @@ git clone https://github.com/furkanahmetk/Wildfire_Surveilace_System.git
 cd ~/Wildfire_Surveilance_System/FireDetection/
 ./download-models.sh
 
+
+```
+
+## Converting tensorflow to tensorflow lite to raspberry-pi implementation's performance improvement
+
+Following paramaters should be set correctly to identify the path of pre-trained model and test data set
+main.py Line 144:
+```bash
 
 ```
 
