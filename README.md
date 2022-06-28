@@ -5,6 +5,8 @@ Tested using Python 3.7.x, [TensorFlow 1.15](https://www.tensorflow.org/install/
 
 ## Abstract
 
+In this repository we worked on our multidisciplinary final year project.Our final year multidisciplinary team project is an autonomous wildfire surveillance drone running on renewable energy. The goal of this drone is to detect and announce when it detects a wildfire to alarm authorities before the wildfire causes any significant damage. We are using an Arducopter to run Ardupilot. It uses GPS and radio frequency to control the drone. The detection of fire happens in the drone. We are using a raspberry to run our CNN detection algorithm. The CNN algorithm uses a simplified version of the FireNet with TensorFlow.  The drone communicates to a ground station sending various types of information about the drone’s state. The drone’s battery is charged using solar panels. Fire detection using image processing and machine learning. Simulation and testing have also been done through Mission Planner, which will also be used as the GUI for the drone’s ground station.
+
 example to add pngs
 
 ![](https://raw.githubusercontent.com/socodes/Casper-validator-metrics-charts/main/RAM%20Amount%20Chart.png)
