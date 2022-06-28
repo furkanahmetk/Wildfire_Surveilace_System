@@ -43,12 +43,12 @@ On Development process of fire detection module PyCharm has been used with convo
 To install pycharm visit [Pycharm Official Website](https://www.jetbrains.com/pycharm/download/#section=linux)
 
 
-
-
-## Google Drive folder which includes our custom mixed dataset and pre trained weights
+## Google Drive folder which includes our custom mixed dataset and trained weights
 [Google Drive of Mixed Dataset and pre-trained weights](https://drive.google.com/drive/folders/1yzvNfW-rJRnT51vGhIUvl5yQI0mwzn5x?usp=sharing)
 
-following commands should be issued to install another pretrained model :
+## Installing Firenet Pre-Trained model
+This is a pre-trained firenet model  which can also be used to test dataset. 
+Following commands should be issued to install another pretrained model :
 ```bash
 cd ~/Wildfire_Surveilance_System/FireDetection/
 ./download-models.sh
