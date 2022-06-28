@@ -72,7 +72,9 @@ cd ~/Wildfire_Surveilance_System/FireDetection/
 
 ## Operating live Fire Detection test by using camera or video stream
 
+```bash
 
+```
 ## Configuring power implementation
 
 ## Automation implementation
