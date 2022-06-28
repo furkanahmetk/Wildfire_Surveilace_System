@@ -22,7 +22,6 @@ from pymavlink import mavutil
 
 from sklearn.model_selection import train_test_split
 
-
 ################################################################################
 from tqdm import tqdm
 
@@ -91,32 +90,77 @@ def read_data(directory):
 
 
 def run():
-    
-    ################################################################################
 
-    # construct and display model
+    ################################################################################
+    # Construct model
 
     model = construct_firenet(224, 224, training=False)
     print("Constructed FireNet ...")
+
+    ################################################################################
+    # Train Model
+    """
+    train_set = read_data("Dataset1/Training")
+    x_train = []
+    y_train = []
+    x_data = []
+    y_data = []
+    x_validate = []
+    y_validate = []
+    label_encoder = LabelEncoder()
+    onehot_encoder = OneHotEncoder(sparse=False)
+
+    for features, label in train_set:
+        x_train.append(features)
+        y_train.append(label)
+
+    (x_train, x_validate, y_train, y_validate) = train_test_split(x_train, y_train,test_size=0.20, random_state=42)
+
+    x_train = np.array(x_train)
+    x_validate = np.array(x_validate)
+
+    y_train = label_encoder.fit_transform(y_train)
+    y_train = y_train.reshape(len(y_train), 1)
+    y_train = onehot_encoder.fit_transform(y_train)
+
+    y_validate = label_encoder.fit_transform(y_validate)
+    y_validate = y_validate.reshape(len(y_validate), 1)
+    y_validate = onehot_encoder.fit_transform(y_validate)
+
+    history = model.fit(x_train, y_train, 5,validation_set=(x_validate, y_validate))
+
+    model.save("last_model.tfl")
+    """
+    ################################################################################
+    # Load Model
 
     model.load(os.path.join("models/FireNet", "firenet"),weights_only=True)
     print("Loaded CNN network weights ...")
 
     ################################################################################
-    # train data set
-    #history = model.fit(x_train, y_train, 5,validation_set=(x_validate, y_validate))
+    #Test Model
 
-    ################################################################################
-
-    # Manually save model
-    #model.save("last_model.tfl")
     """
-    print("[INFO] evaluating network...")
+    test_set = read_data("Dataset2/test")
+    x_test = []
+    y_test = []
+    for features, label in test_set:
+        x_test.append(features)
+        y_test.append(label)
+
+    x_test = np.array(x_test)
+    y_test = label_encoder.fit_transform(y_test)
+    y_test = y_test.reshape(len(y_test), 1)
+    y_test = onehot_encoder.fit_transform(y_test)
+
+    print("Evaluating network...")
     predictions = model.predict(x_test)
     print(classification_report(y_test.argmax(axis=1),
-                                predictions.argmax(axis=1), target_names=CATEGORIES))"""
+                                predictions.argmax(axis=1), target_names=CATEGORIES))
+    """
 
     ################################################################################
+    # Camera Model
 
     # network input sizes
 
@@ -127,9 +171,6 @@ def run():
 
     windowName = "Live Fire Detection - FireNet CNN";
     keepProcessing = True;
-
-    ################################################################################
-
 
     # load video file from first command line argument
 
