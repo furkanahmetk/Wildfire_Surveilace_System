@@ -200,6 +200,28 @@ Mission Planner screenshot of the Plan tab, showing the test waypoints (green pi
 ## Communication implementation
 For Telementry communication 3DR RF Module used to establish communication between pixhawk and ground unit. And Mavlink connection with cable used between raspberry-pi and pixhawk.
 
+After connecting raspberry pi properly, switch it on and run the terminal 
+with the following commands:
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python-pip
+sudo apt-get install python-dev
+sudo pip install future
+sudo apt-get install screen python-wxgtk4.0 python-lxml
+sudo pip install pyserial
+sudo pip install dronekit
+sudo pip install MAVProxy
+```
+
+```bash
+Raspberry Pi configuration (sudo raspi-config):
+Interface Options->Serial Port->no->yes
+
+(sudo nano /boot/config.txt)
+insert: 	dtoverlay=disablebt
+		enable uart=1
+```
 Simple showing of communication module (below)
 ![communicationmodule](https://user-images.githubusercontent.com/20406719/176122442-7fcb8c38-a674-432e-bec2-940033209053.png)
 
