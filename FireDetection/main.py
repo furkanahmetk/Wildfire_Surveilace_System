@@ -18,8 +18,10 @@ from tflearn.layers.core import *
 from tflearn.layers.conv import *
 from tflearn.layers.normalization import *
 from tflearn.layers.estimator import regression
+from pymavlink import mavutil
 
 from sklearn.model_selection import train_test_split
+
 
 ################################################################################
 from tqdm import tqdm
