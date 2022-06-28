@@ -176,7 +176,9 @@ The general schematic of the solar charge controller is as shown below, accordin
 
 ## Automation implementation
 
-This should be set on ardupilot:
+Latest Version of Artupilot can be installed by following the [how to install Ardupilot guide](https://ardupilot.org/planner/docs/mission-planner-installation.html)
+
+This should be set on ardupilot after installing it:
 ```bash
 
 ```
