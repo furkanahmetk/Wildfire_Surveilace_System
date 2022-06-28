@@ -112,6 +112,11 @@ main.py Line 144:
 ## Automation implementation
 
 ## Communication implementation
+For Telementry communication 3DR RF Module used to establish communication between pixhawk and ground unit. And Mavlink connection with cable used between raspberry-pi and pixhawk.
+
+Simple showing of communication module (below)
+![communicationmodule](https://user-images.githubusercontent.com/20406719/176122442-7fcb8c38-a674-432e-bec2-940033209053.png)
+
 
 ## References
 
