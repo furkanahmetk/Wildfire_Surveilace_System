@@ -1,4 +1,4 @@
-# Wildfire_Surveilace_System
+# Wildfire Surveilace System
 Wildfire suveilance system with an autonomous UAV(Drone), which uses Custome CNN firenet model with raspberry-pi implementation. This repository also includes all module details like power module communication and automation modules.
 
 Tested using Python 3.7.x, [TensorFlow 1.15](https://www.tensorflow.org/install/), [TFLearn 0.3.2](http://tflearn.org/) and [OpenCV 3.x / 4.x](http://www.opencv.org) (requires opencv extra modules - ximgproc module for superpixel segmentation)
