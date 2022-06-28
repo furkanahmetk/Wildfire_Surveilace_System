@@ -168,8 +168,32 @@ cd ~/wildfire_Surveilance_System/FireDetection/converter/
 python3 firenet-conversion.py
 ```
 ## Configuring power implementation
+The figure below illustrates a reference diagram for the power system model of the drone: 
+![2](https://user-images.githubusercontent.com/25657192/176139308-e0ea28df-a5ff-4cba-a25a-56b74c9fa249.PNG)
+
+The general schematic of the solar charge controller is as shown below, according to (Swagatam Innovations, 2022):
+![solar](https://user-images.githubusercontent.com/25657192/176139650-8cbb0001-57ae-4d63-8424-3dfb2e53cd4c.PNG)
 
 ## Automation implementation
+
+This should be set on ardupilot:
+```bash
+
+```
+STL Architecture taken from Ardupilot (2021)(below)
+
+![Ardupilotarch](https://user-images.githubusercontent.com/25657192/176140101-85656b71-2713-4a4a-8986-730cf755837d.png)
+
+Automaion Levels
+![auto](https://user-images.githubusercontent.com/25657192/176140149-d50d7f41-402c-4517-bae2-83f675124308.PNG)
+
+Mission Planner screenshot of the Plan tab, showing retrieved data while mission is ongoing, 
+![data](https://user-images.githubusercontent.com/25657192/176140215-bd0db0d0-e73f-447f-ba58-7c258636bc6d.PNG)
+
+Mission Planner screenshot of the Plan tab, showing the test waypoints (green pins) which, the drone will move towards.(below)
+![mp](https://user-images.githubusercontent.com/25657192/176140331-28386d52-d6b4-43f8-999a-870e301b2327.PNG)
+
+
 
 ## Communication implementation
 For Telementry communication 3DR RF Module used to establish communication between pixhawk and ground unit. And Mavlink connection with cable used between raspberry-pi and pixhawk.
