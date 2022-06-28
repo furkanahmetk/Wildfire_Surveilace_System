@@ -189,7 +189,7 @@ def run():
     frame_time = round(1000 / fps);
     logfile = open("firelog.txt",'w')
 
-    gcs_conn = mavutil.mavlink_connection('tcp:localhost:15795', input=False)
+    gcs_conn = mavutil.mavlink_connection('/dev/ttyAMA0', baud=57600, input=False)
     gcs_conn.wait_heartbeat()
     print("Heartbeat from system (system %u component %u)" % (gcs_conn.target_system, gcs_conn.target_system))
 
