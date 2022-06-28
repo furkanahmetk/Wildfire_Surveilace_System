@@ -10,9 +10,9 @@ In this repository we worked on our multidisciplinary final year project.Our fin
 
 General Operation flow diagram (below)
 
-!![GeneralOperationFlogDiagram](https://user-images.githubusercontent.com/25657192/176115243-e8248eb7-3056-4380-9336-af4b90912db7.png)
+![GeneralOperationFlogDiagram](https://user-images.githubusercontent.com/25657192/176115243-e8248eb7-3056-4380-9336-af4b90912db7.png)
 
-[](https://github.com/furkanahmetk/Wildfire_Surveilace_System/GeneralOperationFlogDiagram.png)
+![](https://github.com/furkanahmetk/Wildfire_Surveilace_System/GeneralOperationFlogDiagram.png)
 
 Communication overall design structure (below)
 
