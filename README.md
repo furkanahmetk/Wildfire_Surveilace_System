@@ -48,7 +48,7 @@ To install pycharm visit [Pycharm Official Website](https://www.jetbrains.com/py
 
 ## Installing Firenet Pre-Trained model
 This is a pre-trained firenet model  which can also be used to test dataset. 
-Following commands should be issued to install another pretrained model :
+Following commands should be issued to install another pretrained model which was taken from [tobybreckon/fire-detection-cnn](https://github.com/tobybreckon/fire-detection-cnn):
 ```bash
 cd ~/Wildfire_Surveilance_System/FireDetection/
 ./download-models.sh
@@ -62,29 +62,29 @@ cd ~/Wildfire_Surveilance_System/FireDetection/
 
 [Dataset for Forest Fire Detection(Khan et al., 2020)](https://data.mendeley.com/datasets/gjmr63rz2r/1)
 
-## Instructions to test pre-trained models
+## Instructions to test with pre-trained models
 
-Following paramaters should be set correctly to identify the path of pre-trained model and test data set
-main.py Line 144:
+Following paramaters should be set correctly to identify the path of pre-trained model and test data set and 
+Edit main.py Line 136 and enter your weight path:
+
+model.load("Model Path"),weights_only=True)
+
+If comented uncommen Test Model part
+
+Edit main.py Line 143 and enter your test path:
+
+
+test_set = read_data("Test Path")
+
+Make sure that your fire and nofire folder names match with catogories name
+Catagories name in main.py Line 27
+
+CATEGORIES = ["fire", "nofire"]
+
+After clonning the repository and getting a decided weight, following commands should be issued to test with pretrained weights.
 ```bash
-
-```
-
-Following commands should be issued to test pretrained weights, if you already clonned the repository and downloaded pretrained models you may ignore first related commands.
-
-```bash
-git clone https://github.com/furkanahmetk/Wildfire_Surveilace_System.git
 cd ~/Wildfire_Surveilance_System/FireDetection/
-./download-models.sh
-
-
-```
-
-## Converting tensorflow to tensorflow lite to raspberry-pi implementation's performance improvement
-
-Following paramaters should be set correctly to identify the path of pre-trained model and test data set
-main.py Line 144:
-```bash
+python3 main.py
 
 ```
 
@@ -99,6 +99,14 @@ main.py Line 144:
 ```bash
 
 ```
+## Converting tensorflow to tensorflow lite to raspberry-pi implementation's performance improvement
+
+Following paramaters should be set correctly to identify the path of pre-trained model and test data set
+main.py Line 144:
+```bash
+
+```
+
 ## Configuring power implementation
 
 ## Automation implementation
