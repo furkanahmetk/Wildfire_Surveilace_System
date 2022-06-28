@@ -10,13 +10,19 @@ In this repository we worked on our multidisciplinary final year project.Our fin
 
 General Operation flow diagram (below)
 
-![](https://github.com/furkanahmetk/Wildfire_Surveilace_System/GeneralOperationFlogDiagram.png)
+!![GeneralOperationFlogDiagram](https://user-images.githubusercontent.com/25657192/176115243-e8248eb7-3056-4380-9336-af4b90912db7.png)
+
+[](https://github.com/furkanahmetk/Wildfire_Surveilace_System/GeneralOperationFlogDiagram.png)
 
 Communication overall design structure (below)
+
+![CommunicationDesign](https://user-images.githubusercontent.com/25657192/176115417-be704ebd-4a9c-493a-b534-6c0ae4250d24.png)
 
 ![](https://github.com/furkanahmetk/Wildfire_Surveilace_System/CommunicationDesign.png)
 
 Firenet model structure (below)
+
+![StructureOfFirenetModel](https://user-images.githubusercontent.com/25657192/176115446-e21dd098-fe7d-45d7-be06-f24e2b0e5ca6.png)
 
 ![](https://github.com/furkanahmetk/Wildfire_Surveilace_System/StructureOfFirenetModel.png)
 
